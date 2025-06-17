@@ -23,6 +23,7 @@
         </select>
       </label>
       <label>Your Question:<textarea name="question" required></textarea></label>
+      <label>Promo Code (optional): <input type="text" name="promo_code"></label>
       <input type="submit" value="Continue to Payment">
     </form>
   </div>

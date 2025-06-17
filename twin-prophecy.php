@@ -7,7 +7,7 @@ echo <<<HTML
   <title>Twin Flame Prophecy</title>
   <style>
     body {
-      background: url('assets/scroll-bg.png') no-repeat center center fixed;
+      background: url('/wp-content/dbs-media-hold/scroll-bg.safe420') no-repeat center center fixed;
       background-size: cover;
       color: #FFD700;
       font-family: 'Georgia', serif;

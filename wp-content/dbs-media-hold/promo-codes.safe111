@@ -1,0 +1,5 @@
+{
+  "FREESCROLL": { "type": "free", "uses": 50 },
+  "HALFOFF": { "type": "discount", "link": "https://paypal.com/.../discount" },
+  "LUCIDUSGIFT": { "type": "free", "uses": 999 }
+}
