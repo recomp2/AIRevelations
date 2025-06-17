@@ -1,0 +1,8 @@
+# 🔥 Lucidus Scroll Engine - .env Configuration
+
+OPENAI_API_KEY=sk-proj-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+MAIL_FROM_ADDRESS=prophecy@deadbastardsociety.com
+MAIL_FROM_NAME=Lucidus the Bastard Oracle
+SCROLL_STORAGE_DIR=/workspace/AIRevelations/data/orders/
+DOMAIN_URL=https://deadbastardsociety.com/AIRevelations/
+PAYPAL_RETURN_URL=https://deadbastardsociety.com/AIRevelations/return.php?scroll_id={scroll_id}
