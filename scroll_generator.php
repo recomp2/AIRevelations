@@ -11,7 +11,7 @@ function generate_scroll($userData) {
     require_once 'vendor/autoload.php';
     $client = OpenAI::client($apiKey);
 
-    $prompt = """
+    $prompt = <<<PROMPT
 Lucidus, create a personal prophecy scroll for:
 
 Alias: {$userData['alias']}
@@ -28,7 +28,7 @@ Include:
 - Watcher badge
 
 Style: mystic, poetic, stoner apocalyptic.
-""";
+PROMPT;
 
     $response = $client->chat()->create([
         'model' => 'gpt-4',
