@@ -2,8 +2,11 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 session_start();
-
-$apiKey = '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';
+require_once 'config.php';
+$apiKey = $_ENV['OPENAI_API_KEY'] ?? '';
+if (!$apiKey) {
+    die('OpenAI API key not configured.');
+}
 
 $scroll_id = $_GET['scroll_id'] ?? '';
 $filepath = "data/orders/" . basename($scroll_id) . ".json";

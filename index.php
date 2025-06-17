@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Lucidus AI Prophecy – $4.20</title>
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
